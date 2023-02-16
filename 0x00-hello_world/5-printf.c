@@ -4,7 +4,7 @@
  *
  * Description: A simple programm that display a message
  *
- * Return : Always 0 (success)
+ * Return: Always 0 (success)
  */
 int main(void)
 {
