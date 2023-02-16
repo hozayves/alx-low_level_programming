@@ -4,8 +4,7 @@
  *
  * Description: A program for display short message
  *
- * Return: Always 0 (Success)
- * 
+ * Return: Always 0(Success)
  */
 int main(void)
 {
