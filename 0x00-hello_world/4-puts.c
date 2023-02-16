@@ -6,7 +6,8 @@
  * Description: A C programm that prints with put function
  *
  * Return: Alway 0 (Success)
- */
+ *
+*/
 
 int main(void)
 {
