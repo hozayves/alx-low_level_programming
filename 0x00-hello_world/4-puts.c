@@ -1,3 +1,6 @@
+/*
+ * Simple c program for dispay message
+ */
 #include <stdio.h>
 int main(void)
 {
