@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main: Entry point
+ * main - Entry point
  *
  * Description: A simple programm that display sizeof
  *
