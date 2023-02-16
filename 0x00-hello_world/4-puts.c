@@ -1,5 +1,5 @@
 #include <stdio.h>
-/*
+/**
  * main - entry point
  *
  * Description: A program for display short message
