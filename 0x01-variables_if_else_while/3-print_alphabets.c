@@ -11,7 +11,7 @@ void Alphabet(void);
  */
 int main(void)
 {
-	alphabet();
+	Alphabet();
 	putchar('\n');
 	return (0);
 }
