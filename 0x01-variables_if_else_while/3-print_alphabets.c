@@ -27,11 +27,11 @@ void Alphabet(void)
 {
 	char ch;
 
-	for (ch = 'a'; ch < 'z'; ch++)
+	for (ch = 'a'; ch <= 'z'; ch++)
 	{
 		putchar(ch);
 	}
-	for (ch = 'a'; ch < 'z'; ch++)
+	for (ch = 'a'; ch <= 'z'; ch++)
 	{
 		putchar(toupper(ch));
 	}
