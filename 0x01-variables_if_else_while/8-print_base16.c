@@ -37,4 +37,6 @@ int base16(void)
 		putchar(z);
 	}
 	putchar('\n');
+
+	return (0);
 }
