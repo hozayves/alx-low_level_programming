@@ -20,9 +20,9 @@ int main(void)
 
 			while (digit3 < 10)
 			{
-				putchar(digit1 + '0');
-				putchar(digit2 + '0');
-				putchar(digit3 + '0');
+				putchar((digit1 % 10) + '0');
+				putchar((digit2 % 10) + '0');
+				putchar((digit3 % 10) + '0');
 				if (digit1 != 7 || digit2 != 8 || digit3 != 9)
 					putchar(',');
 				putchar(' ');
