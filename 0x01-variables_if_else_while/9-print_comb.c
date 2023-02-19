@@ -2,8 +2,7 @@
 /**
  * main - Entry point
  *
- * Description: A programm that display a single
- * digit number seperated by comma
+ * Description: A programm that number from 0 to 9 separed by ,
  *
  * Return: Always 0 (success)
  */
@@ -11,16 +10,14 @@ int main(void)
 {
 	int i = 0;
 
-	for (i = 0; i <= 9; i++)
+	while (i <= 9)
 	{
-		putchar('0' + i);
-		if (i < 9)
+		if (i < 10)
 		{
+			putchar(i);
 			putchar(',');
-			putchar(' ');
 		}
+		i++;
 	}
 	putchar('\n');
-
-	return (0);
 }
