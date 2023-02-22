@@ -1,7 +1,6 @@
 #include "main.h"
 /**
  * main - entry point
- *
  * Description: A program that print if integer is positive or negative
  *
  * Return: 0 (success)
