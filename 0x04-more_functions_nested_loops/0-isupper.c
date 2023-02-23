@@ -2,7 +2,7 @@
 #include <ctype.h>
 /**
  * _isupper - Function defition
- * 
+ *
  * Description: A function that checks for uppercase character
  * @c: parameter
  *
