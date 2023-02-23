@@ -2,9 +2,9 @@
 /**
  * print_most_numbers - Function definition
  *
- * Description: A function that print a number form 0 to 0
- * except 2 and 4
- * 
+ * Description: A function that prints the number
+ * from 0 to 9 except 2 and 4 only
+ *
  * Return: nothing
  */
 void print_most_numbers(void)
