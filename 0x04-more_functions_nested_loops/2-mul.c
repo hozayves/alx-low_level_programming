@@ -6,7 +6,7 @@
  * @a: first parameter
  * @b: second parameter
  *
- * Retrn: result
+ * Return: result
  */
 int mul(int a, int b)
 {
