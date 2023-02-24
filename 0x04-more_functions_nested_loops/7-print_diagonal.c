@@ -5,7 +5,7 @@
  * Description: A function that draws  a diagonal line on the terminal
  * @n: parameter
  *
- * Return: nothing
+ * Return: nothings
  */
 void print_diagonal(int n)
 {
