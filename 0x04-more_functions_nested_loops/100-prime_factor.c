@@ -9,7 +9,8 @@
  */
 int main(void)
 {
-	int c = 2, n = 1231952;
+	int c = 2;
+	unsigned long int n = 612852475143;
 
 	while (n > 1)
 	{
