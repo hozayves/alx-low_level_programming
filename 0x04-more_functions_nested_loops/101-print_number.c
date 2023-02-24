@@ -28,7 +28,7 @@ void long_int(int n)
 		_putchar('-');
 		n = -n;
 	}
-	if (n / 10)
+	if ((n / 10) > 0)
 		long_int(n / 10);
 	_putchar(n % 10 + 48);
 }
