@@ -9,14 +9,15 @@
  */
 int main(void)
 {
-	int c = 2;
+	int c = 2, largest = 2;
 	unsigned long int n = 612852475143;
 
 	while (n > 1)
 	{
 		if (n % c == 0)
 		{
-			printf("%d ", c);
+			if (largest <= c)
+				largest = c;
 			n /= c;
 		}
 		else
@@ -24,6 +25,6 @@ int main(void)
 			c++;
 		}
 	}
-	printf("\n");
+	printf("%d\n", largest);
 	return (0);
 }
