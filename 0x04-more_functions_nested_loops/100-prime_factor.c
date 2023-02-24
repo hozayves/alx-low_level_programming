@@ -9,7 +9,7 @@
  */
 int main(void)
 {
-	int c = 2, largest = 2;
+	int c = 2, largest = 0;
 	unsigned long int n = 612852475143;
 
 	while (n > 1)
