@@ -11,7 +11,9 @@ void long_int(int);
  */
 void print_number(int n)
 {
-	long_int(n);
+	unsigned int num = n;
+
+	long_int(num);
 }
 /**
  * long_int - print long int using putchar() only
