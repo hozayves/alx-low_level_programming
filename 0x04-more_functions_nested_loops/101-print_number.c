@@ -13,6 +13,12 @@ void print_number(int n)
 {
 	long_int(n);
 }
+/**
+ * long_int - print long int using putchar() only
+ * @n: acceptable parameter
+ *
+ * Return: nothing
+ */
 void long_int(int n)
 {
 	if (n < 0)
