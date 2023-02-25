@@ -13,22 +13,13 @@ void print_number(int n)
 {
 	unsigned int num = n;
 
-	long_int(num);
-}
-/**
- * long_int - print long int using putchar() only
- * @n: acceptable parameter
- *
- * Return: nothing
- */
-void long_int(int n)
-{
-	if (n < 0)
+	if (num < 0)
 	{
 		_putchar('-');
-		n = -n;
+		num = -num;
 	}
-	if ((n / 10) > 0)
-		long_int(n / 10);
-	_putchar(n % 10 + 48);
+
+	if ((num / 10) > 0)
+		print_number(num / 10);
+	_putchar(num % 10 + '0');
 }
