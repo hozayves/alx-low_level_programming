@@ -1,6 +1,4 @@
 #include "main.h"
-void long_int(int);
-
 /**
  * print_number - function definition
  *
