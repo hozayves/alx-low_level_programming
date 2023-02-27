@@ -3,16 +3,16 @@
 /**
  * print_rev - function definition
  *
- * Description: A function that prints a string, in reverse and end with newline
+ * Description: A function that prints a string, in reverse
  * @s: parameter
  *
  * Return: nothing
  */
 void print_rev(char *s)
 {
-	int size = strlen(s);
+	int size = strlen(s), i;
 
-	for (int i = size; i >= 0; i--)
+	for (i = size; i >= 0; i--)
 	{
 		_putchar(s[i]);
 	}
