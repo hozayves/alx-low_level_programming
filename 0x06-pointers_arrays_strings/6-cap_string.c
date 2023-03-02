@@ -10,19 +10,25 @@
  */
 char *cat_string(char *string)
 {
-	int i;
-	int capitalize_next = 1;
+	int i, j;
+	int special_char[13] = {' ', '\t', '\n', ',', ';', '.', '!', '?',
+		'"', '(', ')', '{', '}'};
 
 	for (i = 0; string[i] != '\0'; i++)
 	{
-		if(isspace(string[i]))
+		if (string[i] >= 'a' && string[i] <= 'z' && i == 0)
 		{
-			capitalize_next = 1;
+			string[i] -= 32;
 		}
-		else if (capitalize_next)
+		for (j = 0; j < 13; j++)
 		{
-			string[i] = toupper(string[i]);
-			capitalize_next = 0;
+			if (string[i] == speicial_char[j])
+			{
+				if (string[i] >= 'a' && string[i] <= 'z')
+				{
+					string[i] -= 32;
+				}
+			}
 		}
 	}
 	return (string);
