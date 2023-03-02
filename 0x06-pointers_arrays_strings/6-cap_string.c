@@ -22,7 +22,7 @@ char *cat_string(char *string)
 		}
 		for (j = 0; j < 13; j++)
 		{
-			if (string[i] == speicial_char[j])
+			if (string[i] == special_char[j])
 			{
 				if (string[i] >= 'a' && string[i] <= 'z')
 				{
