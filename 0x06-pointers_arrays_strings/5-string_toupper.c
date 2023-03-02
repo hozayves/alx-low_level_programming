@@ -15,7 +15,7 @@ char *string_toupper(char *string)
 	{
 		if (string[i] >= 97 && string[i] <= 122)
 		{
-			string -= 32;
+			string[i] -= 32;
 		}
 	}
 	return (string);
