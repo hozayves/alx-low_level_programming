@@ -25,4 +25,5 @@ char *cat_string(char *string)
 			capitalize_next = 0;
 		}
 	}
+	return (string);
 }
