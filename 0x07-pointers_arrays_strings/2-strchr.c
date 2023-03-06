@@ -1,7 +1,7 @@
 #include "main.h"
 #include <string.h>
 /**
- * _strchr - functio definition
+ * _strchar - functio definition
  *
  * @s: string parameter
  * @c: character to search parameter
@@ -10,15 +10,13 @@
  */
 char *_strchar(char *s, char *c)
 {
-	while (*s)
+	while (*s && *s != '\0')
 	{
-		if (*s != c)
-			s++;
-		else
+		if (*s == c)
+		{
 			return (s);
-	}
-	if (*c == '\0')
-	{
-		return (s);
+		}
+		else
+			s++;
 	}
 }
