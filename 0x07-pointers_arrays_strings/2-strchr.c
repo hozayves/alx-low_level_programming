@@ -19,4 +19,5 @@ char *_strchar(char *s, char *c)
 		else
 			s++;
 	}
+return (NULL);
 }
