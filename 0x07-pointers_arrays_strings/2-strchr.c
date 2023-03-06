@@ -1,14 +1,14 @@
 #include "main.h"
 #include <string.h>
 /**
- * _strchar - functio definition
+ * _strchr - functio definition
  *
  * @s: string parameter
  * @c: character to search parameter
  *
  * Return: c character or NULL
  */
-char *_strchar(char *s, char *c)
+char *_strchr(char *s, char c)
 {
 	int i;
 
