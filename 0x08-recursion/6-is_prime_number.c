@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * find _prime - function
+ * find_prime - function
  *
  * Description: A function that find a prime number
  * @n: number parameter
