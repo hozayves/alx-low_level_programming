@@ -10,11 +10,9 @@
  */
 void _print_rev_recursion(char *str)
 {
-	int strLen = strlen(str);
-
-	while (strLen >= 0)
+	if (*str)
 	{
-		printf("%c", str[strLen]);
-		strLen--;
+		_print_rev_recursion(str + 1);
+		printf("%c", *str);
 	}
 }
