@@ -12,9 +12,9 @@
  */
 int checkDigit(char num[])
 {
-	int i;
+	int i, size = strlen(num);
 
-	for (i = 0; i < strlen(num); i++)
+	for (i = 0; i < size; i++)
 	{
 		if (!isdigit(num[i]))
 			return (1);
@@ -32,13 +32,15 @@ int checkDigit(char num[])
  */
 int main(int argc, char *argv[])
 {
-	int i, sum = 0;
+	int i, sum;
 
 	if (argc == 1)
 		printf("0\n");
 	else
 	{
-		for (i = 0; i < argc; i++)
+		sum = 0;
+
+		for (i = 1; i < argc; i++)
 		{
 			if (checkDigit(argv[i]) == 0)
 			{
