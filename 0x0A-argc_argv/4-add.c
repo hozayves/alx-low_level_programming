@@ -40,7 +40,7 @@ int main(int argc, char *argv[])
 	{
 		for (i = 0; i < argc; i++)
 		{
-			if(checkDigit(argv[i]) == 0)
+			if (checkDigit(argv[i]) == 0)
 			{
 				sum += atoi(argv[i]);
 			}
