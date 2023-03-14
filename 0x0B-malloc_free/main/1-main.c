@@ -8,7 +8,7 @@ int main(void)
 {
     char *s;
 
-    s = _strdup(NULL);
+    s = _strdup("Hello world!");
     if (s == NULL)
     {
         printf("failed to allocate memory\n");
