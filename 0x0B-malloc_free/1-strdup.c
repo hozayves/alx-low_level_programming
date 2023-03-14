@@ -3,8 +3,8 @@
 /**
  * _strdup - function definition
  *
- * Description: A function that returns a pointer to newly allocated space in memory,
- * which contains a copy of the string given as a parameter.
+ * Description: A function that returns a pointer to newly allocated
+ * space in memory,which contains a copy of the string given as a parameter.
  *
  * @str: string parameter
  *
@@ -14,7 +14,7 @@ char *_strdup(char *str)
 {
 	int i, size = strlen(str);
 	char *duplicate = (char *)malloc((sizeof(char) * size) + 1);
-	
+
 	if (str == NULL || duplicate == NULL)
 		return (NULL);
 	for (i = 0; i < size; i++)
