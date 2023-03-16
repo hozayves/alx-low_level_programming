@@ -8,7 +8,7 @@
  * @s2: string 2 parameter
  * @n: first n bytes of s2 parameter
  */
-char *stirng_nconcat(char *s1, char *s2, unsigned int n)
+char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	unsigned int i, j, size, s1_len, s2_len;
 	char *nConcat;
