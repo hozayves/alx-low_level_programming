@@ -25,7 +25,8 @@ char *stirng_nconcat(char *s1, char *s2, unsigned int n)
 	if (n >= s2_len)
 		size = s2_len;
 
-	nConcat = (char *)malloc(sizeof(char) * (s1_len + size) + 1);
+	nConcat = (char *)malloc(sizeof(char) * (s1_len + size + 1));
+
 	if (nConcat == NULL)
 		return (NULL);
 
@@ -33,7 +34,7 @@ char *stirng_nconcat(char *s1, char *s2, unsigned int n)
 	{
 		nConcat[i] = s1[i];
 	}
-	for (j = 0; j < size; j++)
+	for (j = 0; j < size && s2[j] != '\0'; j++)
 	{
 		nConcat[i] = s2[j];
 		i++;
