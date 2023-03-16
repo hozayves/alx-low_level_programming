@@ -3,10 +3,12 @@
 /**
  * string_nconcat - function definition
  *
- * Description: A function that concatenates two strings.
+ * Description: A function that concatenates two strings
  * @s1: string 1 parameter
  * @s2: string 2 parameter
- * @n: first n bytes of s2 parameter
+ * @n: first bytes of s2
+ *
+ * Return: allocated pointer
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
