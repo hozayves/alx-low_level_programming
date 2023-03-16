@@ -10,7 +10,7 @@
  */
 char *stirng_nconcat(char *s1, char *s2, unsigned int n)
 {
-	unsigned int s1_len, s2_len, i, j, size;
+	unsigned int i, j, size, s1_len, s2_len;
 	char *nConcat;
 
 	if (s1 == NULL)
@@ -30,16 +30,15 @@ char *stirng_nconcat(char *s1, char *s2, unsigned int n)
 	if (nConcat == NULL)
 		return (NULL);
 
-	for (i = 0; i < s1_len; i++)
+	for (i = 0; s1[i] != '\0'; i++)
 	{
 		nConcat[i] = s1[i];
 	}
-	for (j = 0; j < size && s2[j] != '\0'; j++)
+	for (j = 0; j < n && s2[j] != '\0'; j++)
 	{
 		nConcat[i] = s2[j];
 		i++;
 	}
 	nConcat[i] = '\0';
-
 	return (nConcat);
 }
