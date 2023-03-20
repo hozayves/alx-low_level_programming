@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
- * main - main function
+ * main - function
  *
  * Description: A function that prints the name of the file
  *
- * Return 0 (success)
+ * Return: 0 (success)
  */
 int main(void)
 {
