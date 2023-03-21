@@ -49,6 +49,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 	{
 		free(_dog);
 		free(_dog->name);
+		return (NULL);
 	}
 	_dog->name = _str_copy(_dog->name, name);
 	_dog->age = age;
