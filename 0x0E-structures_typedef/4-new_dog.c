@@ -2,22 +2,6 @@
 #include <string.h>
 #include <stdlib.h>
 /**
- * _strlen - function length for string
- * @str: string parameter
- *
- * Return: length of string
- */
-int _strlen(char *str)
-{
-	int i = 0;
-
-	while (str[i] != '\0')
-	{
-		i++;
-	}
-	return (i);
-}
-/**
  * _str_copy - function to copy string
  * @dest: destination parameter
  * @src: source parameter
@@ -54,13 +38,13 @@ dog_t *new_dog(char *name, float age, char *owner)
 	if (_dog == NULL)
 		return (NULL);
 
-	_dog->name = (char *)malloc(sizeof(char) * (_strlen(name) + 1));
+	_dog->name = (char *)malloc(sizeof(char) * (strlen(name) + 1));
 	if (_dog->name == NULL)
 	{
 		free(_dog);
 		return (NULL);
 	}
-	_dog->owner = (char *)malloc(sizeof(char) * (_strlen(owner) + 1));
+	_dog->owner = (char *)malloc(sizeof(char) * (strlen(owner) + 1));
 	if (_dog->owner == NULL)
 	{
 		free(_dog);
