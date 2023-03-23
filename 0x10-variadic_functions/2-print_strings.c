@@ -20,7 +20,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 		char *value = va_arg(pString, char *);
 
 		if (value)
-			printf("%s", value));
+			printf("%s", value);
 		else
 			printf("(nil)");
 
