@@ -13,6 +13,7 @@ int pop_listint(listint_t **head)
 	/* if lists is empty return 0*/
 	if (*head == NULL)
 		return (0);
+
 	/*settting a heading address to ptr*/
 	ptr = *head;
 	/* get add of next node */
