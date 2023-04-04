@@ -20,7 +20,7 @@ int pop_listint(listint_t **head)
 	/* get element of the first node */
 	nber = current->n;
 	/* free first node */
-	free(current);
+	free(ptr);
 	/* set head to second node */
 	*head = current;
 	
