@@ -24,7 +24,6 @@ int pop_listint(listint_t **head)
 	free(ptr);
 	/* set head to second node */
 	*head = current;
-	
 	/* return elements fo the first node*/
 	return (nber);
 }
