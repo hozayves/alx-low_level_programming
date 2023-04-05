@@ -1,9 +1,9 @@
 #include "lists.h"
 /**
  * get_nodeint_at_index - A function that returns the nth node of listint_t
- * 
+ *
  * @head: pointer to the first node
- * @indx: index of the node
+ * @index: index of the node
  *
  * Return: pointer
  */
