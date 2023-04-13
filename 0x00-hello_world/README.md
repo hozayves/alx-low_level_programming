@@ -7,7 +7,7 @@ Rewrite it later
 ## Table
 
 | column1 | column2 |
-| ----------------- |
+| ------- | ------- |
 | Kigali  | Rwanda  |
 | Lagos   | Nigeria |
 
